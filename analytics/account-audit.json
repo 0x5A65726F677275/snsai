@@ -1,0 +1,70 @@
+{
+  "audit_date": "2026-08-14",
+  "status": "pending_data",
+  "instagram_handle": "@art_of_vector27",
+  "instagram_url": "https://www.instagram.com/art_of_vector27/",
+  "instagram_url": null,
+  "current_followers": null,
+  "data_sources": [],
+  "missing_for_full_audit": [
+    "Instagram profile URL or handle confirmation",
+    "Screenshots of profile + last 12 posts",
+    "Instagram Insights export or analytics screenshots",
+    "Top 5 and bottom 5 posts by reach (not likes)",
+    "Audience demographics if available",
+    "Competitor accounts to benchmark against"
+  ],
+  "account_positioning": {
+    "niche_current": "AI-powered social media content creation",
+    "niche_recommended": "Daily trend intelligence + AI operator workflows for Instagram creators — the account that shows WHAT to post today and HOW to make it yours",
+    "differentiation": "Real-time trend research piped into publish-ready content packages. Not tips. Not hype. A system.",
+    "follow_reason": "Get the daily trend report + content system that turns attention into followers without burnout",
+    "ideal_follower": "Solo creators, social media managers, and founders with 0–500K followers who post on Instagram and want growth without guessing",
+    "recognizable_identity": "Dark premium tech aesthetic, confession-style hooks, 'operator stack' language, daily trend scores"
+  },
+  "pre_launch_assessment": {
+    "stage": "PRE-LAUNCH — no public posts found to analyze",
+    "strengths": [
+      "Clear niche intersection (AI + Instagram growth)",
+      "Differentiated angle vs generic AI tip accounts",
+      "Trend intelligence engine already built",
+      "Visual brand direction defined",
+      "Series concepts ready to launch"
+    ],
+    "weaknesses": [
+      "Zero published content — no performance baseline",
+      "Instagram connected and active via Composio",
+      "No proof of results (case studies, before/after)",
+      "Risk of looking like another AI tool promo account without human face"
+    ],
+    "immediate_priorities": [
+      "Publish first 9 Reels in 14 days to establish format recognition",
+      "Launch 'Daily Trend Report' and 'Creator Confessions' series simultaneously",
+      "Show face or consistent persona within first 5 posts",
+      "Track follows-per-1000-views from post #1"
+    ]
+  },
+  "content_analysis": {
+    "note": "No historical posts. Patterns will populate after first 10 publishes.",
+    "best_performing": [],
+    "worst_performing": [],
+    "hypothesized_winners": [
+      "Confession hooks with specific numbers (47 days, 3 hours saved)",
+      "Screen-record + trend dashboard B-roll",
+      "Netflix Documentary format adapted to creator niche",
+      "Before/after: manual posting vs operator stack"
+    ],
+    "hypothesized_losers": [
+      "Generic '5 AI tools' listicles",
+      "Over-polished SaaS ads with no human element",
+      "Trend-chasing without niche twist (dance audio, glow-ups)",
+      "Pure product demos with no hook"
+    ],
+    "experiments_to_run": [
+      "Face on camera vs voiceover-only",
+      "Controversy hook vs curiosity hook",
+      "Daily trend score reveal vs workflow confession",
+      "Carousel trend breakdown vs Reel confession"
+    ]
+  }
+}

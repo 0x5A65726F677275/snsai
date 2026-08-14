@@ -1,0 +1,54 @@
+{
+  "pillars": [
+    {
+      "id": "discovery",
+      "name": "Trend Intelligence",
+      "purpose": "Reach strangers via timely, niche-adapted trends",
+      "formats": ["1:1 video", "1:1 carousel trend breakdown"],
+      "hook_style": "What's going viral RIGHT NOW + why it matters for creators",
+      "cta": "Follow for tomorrow's trend report",
+      "target_mix_percent": 30,
+      "series": ["Daily Trend Report", "Trend or Skip"]
+    },
+    {
+      "id": "authority",
+      "name": "Operator Stack",
+      "purpose": "Prove expertise — AI runs the pipeline, human owns the POV",
+      "formats": ["1:1 video tutorial", "Screen-record workflow"],
+      "hook_style": "I replaced [manual task] with this system",
+      "cta": "Save this workflow",
+      "target_mix_percent": 25,
+      "series": ["The Operator Stack", "I Tested This For 30 Days"]
+    },
+    {
+      "id": "personality",
+      "name": "Creator Confessions",
+      "purpose": "Emotional connection via relatable creator pain/humor",
+      "formats": ["1:1 video skit", "Netflix doc format", "POV"],
+      "hook_style": "Confession, deadpan, or escalating demands",
+      "cta": "Comment if you've done this too",
+      "target_mix_percent": 20,
+      "series": ["Creator Confessions", "Things Nobody Tells You About Posting Daily"]
+    },
+    {
+      "id": "shareable",
+      "name": "Send This To",
+      "purpose": "Content people DM to creator friends",
+      "formats": ["1:1 video", "1:1 carousel checklist"],
+      "hook_style": "If you know someone who still [bad habit]…",
+      "cta": "Send this to someone who posts randomly",
+      "target_mix_percent": 15,
+      "series": ["Send This To Your Creator Friend"]
+    },
+    {
+      "id": "conversion",
+      "name": "System Proof",
+      "purpose": "Turn viewers into followers/customers with results",
+      "formats": ["Before/after", "Case study 1:1 video", "Transformation"],
+      "hook_style": "Day X of building a content machine",
+      "cta": "Follow the journey to 10M",
+      "target_mix_percent": 10,
+      "series": ["Building SNS AI", "From 0 to 10M — Day X"]
+    }
+  ]
+}

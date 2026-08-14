@@ -1,0 +1,109 @@
+{
+  "last_updated": "2026-08-14",
+  "trends": [
+    {
+      "id": "ai-invisible-infrastructure",
+      "name": "AI as invisible infrastructure (human-led + AI backend)",
+      "platform_origin": "Cross-platform (Lightreel Aug 2026 report)",
+      "first_detected": "2026-08-14",
+      "peak_estimate": null,
+      "freshness": "NOW",
+      "status": "active",
+      "trend_score": 86,
+      "niche_relevance": 97,
+      "account_performance": "published_evening_test_2026-08-14",
+      "notes": "Fully synthetic AI faces underperform human-led 50-100x. Winners show human POV + AI backend. Posted as evening test carousel."
+    },
+    {
+      "id": "netflix-documentary-confessional",
+      "name": "Netflix Documentary confessional format",
+      "platform_origin": "TikTok",
+      "first_detected": "2026-07-28",
+      "peak_estimate": "2026-08-10",
+      "freshness": "NOW",
+      "status": "active",
+      "trend_score": 88,
+      "niche_relevance": 92,
+      "account_performance": null,
+      "notes": "100K+ posts. Business accounts can use without licensed audio. Crossed to Instagram hard this week."
+    },
+    {
+      "id": "bangladesh-substitution-lipsync",
+      "name": "Bangladesh / escalating-demands substitution lip sync",
+      "platform_origin": "TikTok",
+      "first_detected": "2026-06-15",
+      "peak_estimate": "2026-08-05",
+      "freshness": "RISING",
+      "status": "active",
+      "trend_score": 85,
+      "niche_relevance": 78,
+      "account_performance": null,
+      "notes": "Ian McConnell audio. Substitution format still spreading. May need licensed audio on business accounts."
+    },
+    {
+      "id": "ai-operator-mcp-workflow",
+      "name": "AI as operator (MCP/agent workflows, not just captions)",
+      "platform_origin": "LinkedIn/X/Creator discourse",
+      "first_detected": "2026-07-01",
+      "peak_estimate": null,
+      "freshness": "RISING",
+      "status": "active",
+      "trend_score": 82,
+      "niche_relevance": 95,
+      "account_performance": null,
+      "notes": "Evergreen-rising meta-trend in AI creator space. Strong authority play for SNS AI."
+    },
+    {
+      "id": "anti-ai-slop-authenticity",
+      "name": "Anti-AI-slop / human-first content backlash",
+      "platform_origin": "Cross-platform",
+      "first_detected": "2026-01-01",
+      "peak_estimate": null,
+      "freshness": "ESTABLISHED",
+      "status": "active",
+      "trend_score": 79,
+      "niche_relevance": 90,
+      "account_performance": null,
+      "notes": "Not a meme — sustained cultural shift. Position SNS AI as human-POV accelerator."
+    },
+    {
+      "id": "august-taylor-swift-nostalgia",
+      "name": "Taylor Swift 'august' seasonal nostalgia audio",
+      "platform_origin": "Instagram",
+      "first_detected": "2026-08-01",
+      "peak_estimate": "2026-08-20",
+      "freshness": "RISING",
+      "status": "active",
+      "trend_score": 74,
+      "niche_relevance": 45,
+      "account_performance": null,
+      "notes": "High reach, low niche fit unless paired with creator nostalgia angle."
+    },
+    {
+      "id": "paparazzi-dubstep-glowup",
+      "name": "Paparazzi dubstep ugly-to-hot transition",
+      "platform_origin": "TikTok",
+      "first_detected": "2026-07-20",
+      "peak_estimate": "2026-08-08",
+      "freshness": "SATURATED",
+      "status": "declining",
+      "trend_score": 62,
+      "niche_relevance": 55,
+      "account_performance": null,
+      "notes": "Avoid unless highly differentiated execution."
+    },
+    {
+      "id": "i-never-told-you-this-before",
+      "name": "I Never Told You This Before prank format",
+      "platform_origin": "YouTube Shorts/Brazil",
+      "first_detected": "2026-07-29",
+      "peak_estimate": null,
+      "freshness": "NOW",
+      "status": "active",
+      "trend_score": 84,
+      "niche_relevance": 40,
+      "account_performance": null,
+      "notes": "214K likes in 24h on recent TikTok examples. Low niche fit for SNS AI unless B2B comedy twist."
+    }
+  ]
+}

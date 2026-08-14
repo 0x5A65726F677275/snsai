@@ -1,0 +1,22 @@
+---
+description: All Instagram/social content must be written in English only
+alwaysApply: true
+---
+
+# English-Only Content
+
+**All published content must be in English.**
+
+Applies to:
+- Captions, hooks, scripts, carousel slide text
+- On-image text overlays and cover headlines
+- Story copy, polls, quiz questions, CTAs
+- Hashtag strategy (English keywords)
+- Higgsfield `generate_image` prompts: request English-only UI placeholders; never render Korean text in images
+- Trend reports and daily content packages in `content/` and `reports/`
+
+Read `config/account-profile.json` → `content_language: "en"`.
+
+Never use @snsai — official handle is @art_of_vector27 only.
+
+Agent/chat responses to the user may be in Korean if the user writes in Korean — but **deliverable post content is always English.**

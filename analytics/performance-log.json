@@ -1,0 +1,44 @@
+{
+  "posts": [],
+  "aggregate_metrics": {
+    "total_posts": 0,
+    "avg_share_rate": null,
+    "avg_save_rate": null,
+    "avg_engagement_rate": null,
+    "avg_follow_conversion": null,
+    "avg_view_to_follow": null,
+    "best_format": null,
+    "best_pillar": null,
+    "best_hook_pattern": null
+  },
+  "post_schema": {
+    "id": "YYYY-MM-DD-slug",
+    "published_at": "ISO date",
+    "format": "reel|carousel|image|story",
+    "pillar": "string",
+    "series": "string|null",
+    "hook": "string",
+    "metrics": {
+      "views": 0,
+      "reach": 0,
+      "non_follower_reach_percent": 0,
+      "avg_watch_time_sec": 0,
+      "retention_3sec_percent": 0,
+      "shares": 0,
+      "saves": 0,
+      "comments": 0,
+      "likes": 0,
+      "profile_visits": 0,
+      "follows": 0
+    },
+    "calculated": {
+      "share_rate": "shares/reach",
+      "save_rate": "saves/reach",
+      "engagement_rate": "(likes+comments+saves+shares)/reach",
+      "follow_conversion": "follows/profile_visits",
+      "view_to_follow": "follows/views"
+    },
+    "verdict": "winner|loser|neutral",
+    "learnings": "string"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "series": [
+    {
+      "name": "Daily Trend Report",
+      "visual_identity": "Dark dashboard UI, fire icons, trend scores, violet/cyan accents",
+      "hook_format": "Today's #1 trend for [niche] creators — score [X]/100",
+      "episode_structure": "Hook → Top trend → Why it's trending → My adaptation → CTA",
+      "cta": "Follow — I post this every morning",
+      "frequency": "Daily (weekdays)",
+      "return_reason": "Creators need to know what's working TODAY, not last month"
+    },
+    {
+      "name": "Creator Confessions",
+      "visual_identity": "Netflix documentary chair, warm single light, deadpan delivery",
+      "hook_format": "I wasn't supposed to tell anyone this…",
+      "episode_structure": "Confession → Specific number → System tease → Payoff → Follow CTA",
+      "cta": "Follow for the next confession",
+      "frequency": "2x per week",
+      "return_reason": "Taboo insider knowledge about how creators actually work"
+    },
+    {
+      "name": "The Operator Stack",
+      "visual_identity": "Screen recordings, terminal/MCP aesthetic, clean UI overlays",
+      "hook_format": "This AI agent [does X] while I sleep",
+      "episode_structure": "Problem → Stack reveal → Demo → Result → Save CTA",
+      "cta": "Save this stack",
+      "frequency": "1x per week",
+      "return_reason": "Actionable systems, not tips"
+    },
+    {
+      "name": "Trend or Skip",
+      "visual_identity": "Split screen — trend example vs your adaptation",
+      "hook_format": "Trend score [X]/100 — post or skip?",
+      "episode_structure": "Show trend → Score it → Adapt or reject → Verdict",
+      "cta": "Comment: would you post this?",
+      "frequency": "1x per week",
+      "return_reason": "Teaches trend judgment, builds authority"
+    },
+    {
+      "name": "From 0 to 10M — Day X",
+      "visual_identity": "Follower count overlay, minimal progress tracker",
+      "hook_format": "Day [X] — [followers] followers. Here's what we posted today.",
+      "episode_structure": "Count → Today's post → Why → Metrics → Tomorrow tease",
+      "cta": "Follow the journey",
+      "frequency": "Weekly",
+      "return_reason": "Transparency builds community investment"
+    }
+  ]
+}

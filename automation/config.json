@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "schedule": {
+    "timezone": "America/New_York",
+    "publish_time": "19:10",
+    "generate_time": "19:05",
+    "test_run": "2026-08-14T19:10:00-04:00",
+    "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+  },
+  "publish_method": "instagram_graph_api",
+  "fallback": "queue_only",
+  "notes": {
+    "pc_required": "Windows Task Scheduler requires PC to be on at publish time.",
+    "cloud_option": "For hands-off scheduling without PC, use Cursor Automation (cloud) — see automation/SETUP.ko.md"
+  }
+}

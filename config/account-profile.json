@@ -1,0 +1,79 @@
+{
+  "account_name": "art of vector",
+  "handle": "@art_of_vector27",
+  "instagram_url": "https://www.instagram.com/art_of_vector27/",
+  "goal_followers": 10000000,
+  "current_followers": 0,
+  "account_stage": "active",
+  "content_language": "en",
+  "content_language_rule": "ALL published content must be English. Instagram handle is always @art_of_vector27 — never @snsai.",
+  "north_star_metric": "follows_per_1000_views",
+  "secondary_metrics": [
+    "reach",
+    "non_follower_reach",
+    "reels_views",
+    "avg_watch_time",
+    "retention",
+    "shares",
+    "saves",
+    "profile_visits",
+    "returning_viewers"
+  ],
+  "niche": {
+    "primary": "AI-powered social media content creation",
+    "secondary": ["creator economy", "Instagram growth", "content automation", "Reels strategy"],
+    "audience": "Creators, social media managers, and solo founders who want to grow on Instagram without burning out"
+  },
+  "brand": {
+    "voice": "Direct, insider, slightly irreverent — expert friend not corporate SaaS. Always English.",
+    "visual_style": "Dark premium tech aesthetic, violet/cyan accents, clean typography, phone-mockup UI shots",
+    "differentiators": [
+      "Shows real workflows, not generic AI hype",
+      "Trend-aware but never trend-chasing without a POV",
+      "MCP/agent-native automation angle",
+      "Human-first AI — AI accelerates, human POV converts"
+    ],
+    "avoid": [
+      "Generic AI slop aesthetics",
+      "Copy-paste trend formats without niche twist",
+      "Over-polished corporate ads",
+      "Outdated sounds and dead memes"
+    ]
+  },
+  "content_mix": {
+    "current_trends_percent": 30,
+    "original_evergreen_percent": 40,
+    "recurring_series_percent": 20,
+    "experimental_percent": 10
+  },
+  "platforms": {
+    "primary": "Instagram",
+    "early_warning": "TikTok",
+    "secondary": ["YouTube Shorts", "LinkedIn"]
+  },
+  "production_defaults": {
+    "aspect_ratio": "1:1",
+    "primary_format": "image",
+    "format_priority": ["carousel", "single_image", "video"],
+    "video_length_sec": "30-60",
+    "video_note": "Use video only when user has tokens/budget — default to image carousel",
+    "image_use": "primary deliverable — carousel slides, feed posts, story slides",
+    "higgsfield_aspect_ratio": "1:1",
+    "higgsfield_prefer": "generate_image",
+    "higgsfield_avoid_unless_requested": "generate_video",
+    "note": "Default: 1:1 image carousel. No filming required. Video optional when tokens allow."
+  },
+  "automation": {
+    "enabled": true,
+    "method": "cursor_automation_cloud",
+    "schedule": "08:00 America/New_York daily (Cursor Automation + Cloud Agent)",
+    "instagram_connected_via": "composio",
+    "instagram_handle": "@art_of_vector27",
+    "ig_user_id": "27772957595695936",
+    "setup_guide": "automation/CURSOR-AUTOMATION-SETUP.ko.md",
+    "draft_file": "automation/cursor-automation-draft.yaml",
+    "windows_task": "DISABLE — use Unregister-ScheduledTask SNS-AI-Instagram-Publish",
+    "status": "User chose Cursor Automation — finish setup in Agents Window"
+  },
+  "performance_notes": "Adjust mix if trend content gets views but not followers — shift toward authority/series content."
+}

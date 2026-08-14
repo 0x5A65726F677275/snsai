@@ -1,0 +1,73 @@
+---
+description: Daily Trend Intelligence Engine — run before creating any content
+alwaysApply: true
+---
+
+# Daily Trend Intelligence Engine
+
+Before generating content, execute the full trend workflow. Never ask "what should I post?" — ask **"what is gaining attention today, and how can I turn that into followers for THIS account?"**
+
+## Required Context
+
+Read before every trend session:
+- `config/account-profile.json` — niche, brand, content mix
+- `trends/registry.json` — trend lifecycle and scores
+- Latest file in `reports/` — yesterday's report for continuity
+
+## Daily Workflow (12 Steps)
+
+1. Research current trends (Instagram, TikTok, YouTube Shorts, Google/Search, Reddit if niche-relevant)
+2. Identify rapidly growing topics (last 24–48h = highest priority)
+3. Filter through account niche from `account-profile.json`
+4. Score each trend 0–100 (80+ = strong opportunity)
+5. Compare against historical performance in registry
+6. Select today's highest-potential concept
+7. Generate complete content package in `content/YYYY-MM-DD-post-today.md` — **English only**
+8. Include Higgsfield image prompts when needed — **English on-image text only**
+9. Include caption + CTA + Story strategy
+10. Write daily report to `reports/YYYY-MM-DD-trend-report.md`
+11. Update `trends/registry.json` with new/declining trends
+12. After publish: log performance back to registry
+
+## Freshness Labels
+
+- 🔥 NOW — 24–48h growth, highest priority
+- 🚀 RISING — several days, good opportunity
+- 📈 ESTABLISHED — widely used, unique angle only
+- 🧊 SATURATED — avoid unless differentiated
+- ☠️ DEAD — do not recommend
+
+## Adaptation Rule
+
+Never copy trends. Always: **TREND + MY NICHE + MY UNIQUE ANGLE = ORIGINAL CONTENT**
+
+For each trend answer: What? Why trending? Psychological trigger? My account's use? Differentiation? Series potential?
+
+## Content Decision Options
+
+- **A — TREND JACK**: extreme momentum + strong relevance
+- **B — TREND + EVERGREEN**: current trend + timeless topic
+- **C — ORIGINAL**: trend doesn't fit brand
+- **D — SERIES**: existing series outperforms trends
+
+## Content Mix Target
+
+30% trends | 40% original/evergreen | 20% series | 10% experimental
+
+## Report Format
+
+Every report must include: TOP 5 trends, category breakdown, adaptation matrix, daily priority ranking (#1 POST TODAY, #2 BACKUP, #3 EXPERIMENT), and full content package for #1.
+
+## Breaking Trend Mode
+
+If major relevant topic goes viral: skip calendar, create 3 angles immediately, recommend instant publish.
+
+## After Content Created
+
+Enqueue publish-ready carousel to `automation/queue/posts.json` with `publish_at` ISO datetime. User runs `automation/publish_due.py` or Windows scheduled task. See `automation/SETUP.ko.md`.
+
+## Tools
+
+- Web search for real-time trend research
+- Higgsfield MCP: **`generate_image` only by default** (1:1). Avoid `generate_video` unless user has tokens and requests video. **English-only copy in all prompts and slide text.**
+- Never recommend dead/saturated trends without strategic reason

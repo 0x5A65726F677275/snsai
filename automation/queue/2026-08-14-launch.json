@@ -1,0 +1,10 @@
+{
+  "id": "2026-08-14-launch-carousel",
+  "caption": "I wasn't supposed to tell anyone this.\n\n47 days without manually writing a caption.\n\nSwipe → see the system:\n\n1. Research today's trends (Instagram, TikTok, YouTube)\n2. Score opportunities (80+ = post)\n3. Adapt to YOUR niche — never copy\n4. Publish + measure + learn\n\nSave this carousel if you're building a content system, not posting randomly.\n\nFollow @art_of_vector27 for tomorrow's trend report.\n\n#InstagramGrowth #ContentCreator #ArtOfVector #AIContent #SocialMediaTips",
+  "images": [
+    { "path": "assets/2026-08-14-carousel-slide1-hook.png", "slide": 1 },
+    { "path": "assets/2026-08-14-trend-dashboard-broll-1x1.png", "slide": 2 },
+    { "path": "assets/sns-ai-launch-hero.png", "slide": 5 }
+  ],
+  "note": "Slides 3-4 are text-only — add Canva exports to images[] before publish, or publish 3-slide version first"
+}

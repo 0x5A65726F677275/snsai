@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": "2026-08-14-launch-carousel",
+      "status": "published",
+      "published_at": "2026-08-14T23:15:00+00:00",
+      "instagram_media_id": "17952818178228627",
+      "instagram_account": "@art_of_vector27"
+    },
+    {
+      "id": "2026-08-14-1920-trend-report",
+      "status": "published",
+      "format": "carousel",
+      "publish_at": "2026-08-14T19:20:00-04:00",
+      "published_at": "2026-08-14T23:20:00+00:00",
+      "instagram_media_id": "18000604581004921",
+      "instagram_account": "@art_of_vector27",
+      "caption": "3 trends scoring 80+ today — #1 will surprise you.\n\nSwipe for today's Daily Trend Report:\n\nTrend #1 — Netflix Documentary confessional (Score: 88/100) 🔥 NOW\nTrend #2 — AI-as-Operator workflows (Score: 82/100) 🚀 RISING\nTrend #3 — Anti-AI-slop positioning (Score: 79/100) 📈 ESTABLISHED\n\nDon't copy trends. Adapt them to YOUR niche.\n\nFollow @art_of_vector27 for tomorrow's report.\n\n#InstagramGrowth #TrendReport #ArtOfVector #ContentCreator #ReelsStrategy",
+      "images": [
+        {
+          "path": "assets/2026-08-14-1920-trend-slide1.png",
+          "public_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Hp069K5oqOjSuU77Lxx5AcmTpf/hf_20260814_231605_bc06de46-50b3-4541-9aed-923567cb8d5b.png",
+          "slide": 1
+        },
+        {
+          "path": "assets/2026-08-14-trend-dashboard-broll-1x1.png",
+          "public_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Hp069K5oqOjSuU77Lxx5AcmTpf/hf_20260814_225304_6efa6d1a-9e21-4beb-8157-bef45d9b6467.png",
+          "slide": 2
+        }
+      ],
+      "created_at": "2026-08-14T23:16:00+00:00"
+    },
+    {
+      "id": "2026-08-14-evening-invisible-ai",
+      "status": "published",
+      "format": "carousel",
+      "publish_at": "2026-08-14T19:32:00-04:00",
+      "published_at": "2026-08-14T23:33:00+00:00",
+      "instagram_media_id": "17907965112284852",
+      "instagram_account": "@art_of_vector27",
+      "caption": "The AI posts that flop all have ONE thing in common.\n\nThey put AI on camera instead of behind it.\n\nSwipe → the split every growing creator is using:\n\nVISIBLE (you):\n→ Your opinion\n→ Your niche angle\n→ Your story\n\nINVISIBLE (AI):\n→ Trend research\n→ Image generation\n→ Scheduling + publishing\n\nHuman-first. AI-accelerated. That's the 2026 stack.\n\nSave this if you're building a system, not posting randomly.\n\nFollow @art_of_vector27 for tomorrow's trend report.\n\n#ArtOfVector #InstagramGrowth #AIContent #ContentCreator #CreatorEconomy",
+      "images": [
+        {
+          "path": "assets/2026-08-14-evening-slide1.png",
+          "public_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Hp069K5oqOjSuU77Lxx5AcmTpf/hf_20260814_233251_aacb010b-4777-4381-990c-51542a36060f.png",
+          "slide": 1
+        },
+        {
+          "path": "assets/2026-08-14-evening-slide2.png",
+          "public_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Hp069K5oqOjSuU77Lxx5AcmTpf/hf_20260814_233251_7c3c6c59-9bbe-4b2c-a18c-70da54e963af.png",
+          "slide": 2
+        }
+      ],
+      "created_at": "2026-08-14T23:33:00+00:00",
+      "viral_score": 86,
+      "trend_topic": "AI as invisible infrastructure"
+    }
+  ]
+}

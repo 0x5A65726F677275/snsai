@@ -1,0 +1,30 @@
+{
+  "last_updated": "2026-08-14",
+  "status": "hypothesis_pre_launch",
+  "viral_formula": {
+    "template": "[Taboo/Insider Topic] + [Confession Hook with Specific Number] + [Low-Prod Docu-Visual] + [FOMO/Relief Emotion] + [Hidden System Curiosity] + [Workflow Payoff] + [Daily Report Follow CTA]",
+    "example": "AI workflow secret + 'I haven't written a caption in 47 days' + Netflix doc chair sit + relief from burnout + 'what's the system?' + trend→adapt→publish loop + follow for daily report"
+  },
+  "psychological_triggers": [
+    "Confession/taboo (insider knowledge)",
+    "Specificity (47 days, not 'a long time')",
+    "Identity threat ('creators growing fastest aren't working harder')",
+    "Curiosity gap (system tease before reveal)",
+    "Social proof via trend scores"
+  ],
+  "content_winners": [],
+  "content_losers": [],
+  "content_experiments": [
+    "Confession vs educational hook A/B",
+    "Face-to-camera vs screen-only authority",
+    "Trend jack vs trend+evergreen mix",
+    "Series episode 1 vs standalone viral attempt"
+  ],
+  "repeatable_patterns": {
+    "hook": "I wasn't supposed to tell anyone this… + specific claim",
+    "visual": "Chair confession → dashboard B-roll → back to chair",
+    "length": "45-55 seconds",
+    "cta": "Follow for daily trend report",
+    "cover": "Bold confession text + moody still"
+  }
+}
