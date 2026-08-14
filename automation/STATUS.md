@@ -25,7 +25,7 @@
 | Blocker | Why |
 |---------|-----|
 | **Daily scheduled runs** | Cursor Automation not saved yet |
-| **GitHub repo for cloud** | sns_ai folder not in git — needed for Cloud Agent |
+| **GitHub repo for cloud** | ✅ `0x5A65726F677275/snsai` on `main` |
 
 ## Logs
 
