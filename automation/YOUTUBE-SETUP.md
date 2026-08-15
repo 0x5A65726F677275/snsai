@@ -12,17 +12,9 @@
 4. On **both existing videos**, set **Not made for kids** — they are currently marked kids
 5. Create playlist: `0-Comp Daily`
 
-## Daily run (already drafted)
+## Daily run — HALTED 2026-08-15
 
-Cursor Automation cron `0 8 * * *` America/New_York using `cursor-automation-youtube.yaml`.
-
-Manual fallback:
-
-```bash
-python3 automation/publish_youtube_composio.py
-```
-
-Then the agent stages the MP4 and calls `YOUTUBE_MULTIPART_UPLOAD_VIDEO`.
+Do not save or enable `cursor-automation-youtube.yaml`. Cron is removed. Publish scripts exit immediately while `automation/config.json` `enabled` is false. See `automation/DISABLED.md`.
 
 ## Do not
 

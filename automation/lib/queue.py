@@ -7,7 +7,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-QUEUE_PATH = Path(__file__).resolve().parent / "queue" / "posts.json"
+from .guard import is_enabled
+
+QUEUE_PATH = Path(__file__).resolve().parent.parent / "queue" / "posts.json"
 
 
 def load_queue() -> dict[str, Any]:
@@ -22,12 +24,16 @@ def save_queue(data: dict[str, Any]) -> None:
 
 
 def enqueue(post: dict[str, Any]) -> None:
+    if not is_enabled():
+        raise RuntimeError("HALTED: automation disabled — will not enqueue")
     data = load_queue()
     data["posts"].append(post)
     save_queue(data)
 
 
 def due_posts(now: datetime | None = None) -> list[dict[str, Any]]:
+    if not is_enabled():
+        return []
     now = now or datetime.now(timezone.utc)
     data = load_queue()
     due = []

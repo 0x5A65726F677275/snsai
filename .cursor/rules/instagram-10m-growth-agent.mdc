@@ -33,9 +33,11 @@ If account audit status is `pending_data`, analyze from provided URLs/screenshot
 
 ## Daily Output
 
+Automation is **HALTED** (2026-08-15). Do not generate media or publish to Instagram/YouTube unless the user explicitly asks in this turn.
+
 When user asks "What should I post today?" → use exact format in `templates/daily-viral-content.md`.
 
-Save output to `content/YYYY-MM-DD-viral-content.md`.
+Save output to `content/YYYY-MM-DD-viral-content.md`. Do not enqueue or upload while `automation/config.json` `enabled` is false.
 
 ## After Performance Updates
 

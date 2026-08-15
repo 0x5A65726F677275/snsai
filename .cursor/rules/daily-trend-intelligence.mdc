@@ -64,7 +64,7 @@ If major relevant topic goes viral: skip calendar, create 3 angles immediately, 
 
 ## After Content Created
 
-Enqueue publish-ready carousel to `automation/queue/posts.json` with `publish_at` ISO datetime. User runs `automation/publish_due.py` or Windows scheduled task. See `automation/SETUP.ko.md`.
+Automation is **HALTED** (2026-08-15). Do **not** enqueue or publish unless the user explicitly asks in this turn. If `automation/config.json` has `enabled: false`, stop after writing files — no queue, no Composio upload.
 
 ## Tools
 

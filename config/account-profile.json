@@ -77,9 +77,10 @@
     "note": "Default: 1:1 image carousel. No filming required. Video optional when tokens allow."
   },
   "automation": {
-    "enabled": true,
-    "method": "cursor_automation_cloud",
-    "schedule": "08:00 America/New_York daily (Cursor Automation + Cloud Agent)",
+    "enabled": false,
+    "halted_at": "2026-08-15T04:49:00Z",
+    "method": "disabled",
+    "schedule": "OFF — do not run daily generate or publish",
     "instagram_connected_via": "composio",
     "instagram_handle": "@art_of_vector27",
     "ig_user_id": "27772957595695936",
@@ -87,10 +88,10 @@
     "youtube_handle": "@vector-ope",
     "youtube_channel_id": "UCzkwbcy4d8HlHzImkreOQQQ",
     "youtube_draft_file": "automation/cursor-automation-youtube.yaml",
-    "setup_guide": "automation/CURSOR-AUTOMATION-SETUP.ko.md",
+    "setup_guide": "automation/DISABLED.md",
     "draft_file": "automation/cursor-automation-draft.yaml",
-    "windows_task": "DISABLE — use Unregister-ScheduledTask SNS-AI-Instagram-Publish",
-    "status": "User chose Cursor Automation — finish setup in Agents Window"
+    "windows_task": "DISABLE — run automation/unregister_scheduled_task.ps1",
+    "status": "HALTED 2026-08-15 — no scheduled Instagram or YouTube runs"
   },
   "performance_notes": "Adjust mix if trend content gets views but not followers — shift toward authority/series content."
 }

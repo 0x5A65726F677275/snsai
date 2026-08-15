@@ -7,10 +7,14 @@ import json
 import sys
 from pathlib import Path
 
-from dotenv import load_dotenv
-
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
+
+from lib.guard import assert_enabled  # noqa: E402
+
+assert_enabled()
+
+from dotenv import load_dotenv  # noqa: E402
 
 load_dotenv(ROOT / ".env")
 

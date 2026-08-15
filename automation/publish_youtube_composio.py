@@ -15,6 +15,9 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
+from lib.guard import assert_enabled  # noqa: E402
+
 QUEUE = ROOT / "youtube" / "queue.json"
 
 TAGS = [
@@ -65,6 +68,7 @@ def next_ready() -> dict | None:
 
 
 def main() -> int:
+    assert_enabled()
     video = next_ready()
     if not video:
         print("No YouTube video with a public video_url in automation/youtube/queue.json")

@@ -8,6 +8,9 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
+from lib.guard import assert_enabled  # noqa: E402
+
 QUEUE = ROOT / "queue" / "posts.json"
 
 # Public URLs for assets (Higgsfield CDN — Instagram can fetch these)
@@ -45,6 +48,7 @@ def build_publish_payload(post: dict) -> dict:
 
 
 def main() -> int:
+    assert_enabled()
     post = get_due_post()
     if not post:
         print("No scheduled post in queue.")

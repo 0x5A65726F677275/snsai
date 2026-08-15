@@ -1,16 +1,18 @@
 {
-  "enabled": true,
+  "enabled": false,
+  "halted_at": "2026-08-15T04:49:00Z",
+  "halt_reason": "User asked to stop all automation from this moment.",
   "schedule": {
     "timezone": "America/New_York",
-    "publish_time": "19:10",
-    "generate_time": "19:05",
-    "test_run": "2026-08-14T19:10:00-04:00",
-    "days": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+    "publish_time": null,
+    "generate_time": null,
+    "days": []
   },
-  "publish_method": "instagram_graph_api",
-  "fallback": "queue_only",
+  "publish_method": "disabled",
+  "fallback": "none",
   "notes": {
-    "pc_required": "Windows Task Scheduler requires PC to be on at publish time.",
-    "cloud_option": "For hands-off scheduling without PC, use Cursor Automation (cloud) — see automation/SETUP.ko.md"
+    "pc_required": "Windows Task Scheduler must stay unregistered. Run automation/unregister_scheduled_task.ps1 on the PC.",
+    "cloud_option": "Do not save or enable Cursor Automation YAML while enabled is false.",
+    "resume": "Set enabled=true here and in config/account-profile.json automation.enabled, then restore cron only if the user asks."
   }
 }

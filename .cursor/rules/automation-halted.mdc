@@ -1,0 +1,23 @@
+---
+description: Hard stop — do not run daily generate/publish automation
+alwaysApply: true
+---
+
+# Automation HALTED (2026-08-15)
+
+The user disabled all Instagram and YouTube automation. This overrides daily trend / growth-agent publish instructions.
+
+## Do not, unless the user explicitly asks in this turn
+
+- Research-and-ship a daily post on a schedule
+- Generate Higgsfield images/videos for publishing
+- Enqueue items to `automation/queue/posts.json` or `automation/youtube/queue.json`
+- Call Composio Instagram or YouTube upload/publish tools
+- Save or enable Cursor Automation YAML
+- Register Windows Task Scheduler jobs
+
+## Check first
+
+Read `automation/config.json`. If `enabled` is `false`, stop any publish pipeline and do not invent a workaround.
+
+Manual content work is allowed only when the user clearly requests it in the current message.

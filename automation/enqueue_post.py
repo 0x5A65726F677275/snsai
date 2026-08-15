@@ -13,6 +13,7 @@ from uuid import uuid4
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
+from lib.guard import assert_enabled  # noqa: E402
 from lib.queue import enqueue  # noqa: E402
 
 
@@ -25,6 +26,7 @@ def main() -> int:
         help="ISO datetime e.g. 2026-08-15T09:00:00-04:00",
     )
     args = parser.parse_args()
+    assert_enabled()
 
     payload = json.loads(Path(args.content_file).read_text(encoding="utf-8"))
     post = {

@@ -21,6 +21,15 @@ def log(msg: str) -> None:
 
 
 def main() -> int:
+    sys.path.insert(0, str(ROOT))
+    from lib.guard import assert_enabled  # noqa: E402
+
+    from lib.guard import is_enabled  # noqa: E402
+
+    if not is_enabled():
+        log("HALTED: automation disabled — no publish")
+    assert_enabled()
+
     env_file = ROOT / ".env"
     if not env_file.exists():
         log("SKIP: automation/.env missing — add IG_USER_ID, IG_ACCESS_TOKEN, IMGBB_API_KEY")
