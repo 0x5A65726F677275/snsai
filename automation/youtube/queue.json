@@ -28,6 +28,28 @@
       "made_for_kids": false,
       "publish_at": "2026-08-15T10:00:00-04:00",
       "created_at": "2026-08-15T03:30:00+00:00"
+    },
+    {
+      "id": "2026-08-15-invisible-ai-trend",
+      "status": "published",
+      "platform": "youtube",
+      "format": "short",
+      "privacy": "public",
+      "category_id": "28",
+      "made_for_kids": false,
+      "title": "Why AI Faces Flop on Instagram (Put AI Behind the Camera)",
+      "keyword": "why AI faces flop on Instagram 2026",
+      "zero_comp_score": 90,
+      "description_file": "content/2026-08-15-trend-short.md",
+      "thumbnail_job_id": "745f1432-864f-4c90-b1c2-02fa2ecac28a",
+      "thumbnail_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Hp069K5oqOjSuU77Lxx5AcmTpf/hf_20260815_041917_745f1432-864f-4c90-b1c2-02fa2ecac28a.png",
+      "video_job_id": "9193b699-5631-4046-bcef-e5ede5a4f321",
+      "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Hp069K5oqOjSuU77Lxx5AcmTpf/hf_20260815_041916_9193b699-5631-4046-bcef-e5ede5a4f321.mp4",
+      "youtube_video_id": "lxiCQ6h1g7U",
+      "youtube_url": "https://www.youtube.com/watch?v=lxiCQ6h1g7U",
+      "youtube_shorts_url": "https://www.youtube.com/shorts/lxiCQ6h1g7U",
+      "published_at": "2026-08-15T04:22:16Z",
+      "created_at": "2026-08-15T04:19:00+00:00"
     }
   ]
 }
