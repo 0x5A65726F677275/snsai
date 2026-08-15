@@ -1,15 +1,17 @@
 # Automation Status
 
-**Last updated:** 2026-08-14 (evening test run)
+**Last updated:** 2026-08-15 (YouTube-only 0-comp loop)
 
 ## What IS automatic now
 
 | Item | Status |
 |------|--------|
 | Instagram via Composio | ✅ Connected — `@art_of_vector27` |
-| Content rules (English, 1:1 image) | ✅ Active |
-| Test pipeline (manual run) | ✅ **Published tonight** — [Instagram post](https://www.instagram.com/p/DcCgRczIDge/) |
-| Cursor Automation (cloud) | ⏳ Draft ready — finish in Agents Window |
+| YouTube via Composio | ✅ Connected — [AOV @vector-ope](https://www.youtube.com/@vector-ope) |
+| Content rules (English) | ✅ Active |
+| Test pipeline (manual run) | ✅ Instagram published 2026-08-14 — [post](https://www.instagram.com/p/DcCgRczIDge/) |
+| YouTube daily draft | ⏳ `automation/cursor-automation-youtube.yaml` — save in Agents Window |
+| Cursor Automation (Instagram) | ⏳ Draft ready — finish in Agents Window |
 
 ## Latest publish (test run)
 

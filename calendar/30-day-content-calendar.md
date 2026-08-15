@@ -8,7 +8,7 @@
 | Day | Date | Pillar | Topic | Format | Hook | Main Idea | CTA | Visual | Score | Objective |
 |-----|------|--------|-------|--------|------|-----------|-----|--------|-------|-----------|
 | 1 | Aug 14 | Creator Confessions | AI workflow confession | 1:1 Carousel | "I wasn't supposed to tell anyone this… 47 days no manual captions" | Netflix doc format + operator stack reveal | Follow for daily trend report | Chair + dashboard B-roll | 87 | Launch account, test confession hook |
-| 2 | Aug 15 | Trend Intelligence | Top 3 trends today | 1:1 Carousel | "3 trends scoring 80+ today — #1 will surprise you" | Daily trend report episode 1 | Follow for tomorrow's report | Dashboard UI, trend cards | 84 | Establish daily series |
+| 2 | Aug 15 | YouTube 0-Comp Daily | Composio faceless Short | 9:16 YouTube Short | "Stop hunting 0-comp niche lists" | Weak-supply filter + Composio upload | Subscribe @vector-ope | Dark motion graphics, giant 0 | 91 | Launch YouTube-only daily loop |
 | 3 | Aug 16 | Operator Stack | Morning content routine | 1:1 Carousel | "I replaced my 2-hour morning routine with this" | Screen-record workflow | Save this stack | Screen record + captions | 82 | Authority + saves |
 | 4 | Aug 17 | Shareable | Posting randomly vs system | Carousel | "You're not bad at content. You're bad at systems." | 5-slide system breakdown | Send to a creator friend | Dark UI slides | 80 | Shares + saves |
 | 5 | Aug 18 | Creator Confessions | Bangladesh adaptation | 1:1 Carousel | "You never automate my caption drafts…" | Escalating demands lip sync | Comment your version | Deadpan face cam | 83 | Trend jack test |

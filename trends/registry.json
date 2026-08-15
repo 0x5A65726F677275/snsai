@@ -1,6 +1,32 @@
 {
-  "last_updated": "2026-08-14",
+  "last_updated": "2026-08-15",
   "trends": [
+    {
+      "id": "composio-youtube-daily-upload",
+      "name": "Composio MCP daily YouTube Short upload loop",
+      "platform_origin": "YouTube / LinkedIn / Cursor",
+      "first_detected": "2026-08-15",
+      "peak_estimate": null,
+      "freshness": "NOW",
+      "status": "active",
+      "trend_score": 91,
+      "niche_relevance": 98,
+      "account_performance": null,
+      "notes": "Live YOUTUBE_SEARCH: no ranking tutorial for daily faceless upload via Composio. Today's locked keyword."
+    },
+    {
+      "id": "zero-comp-niche-listicles",
+      "name": "0 competition faceless YouTube niche lists 2026",
+      "platform_origin": "YouTube",
+      "first_detected": "2026-08-14",
+      "peak_estimate": "2026-08-14",
+      "freshness": "SATURATED",
+      "status": "declining",
+      "trend_score": 38,
+      "niche_relevance": 70,
+      "account_performance": null,
+      "notes": "Steffen Miro posted a new list 2026-08-14. Do not rank this phrase. Teach the filter instead."
+    },
     {
       "id": "ai-invisible-infrastructure",
       "name": "AI as invisible infrastructure (human-led + AI backend)",

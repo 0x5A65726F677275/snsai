@@ -49,7 +49,20 @@
   "platforms": {
     "primary": "Instagram",
     "early_warning": "TikTok",
-    "secondary": ["YouTube Shorts", "LinkedIn"]
+    "secondary": ["YouTube Shorts", "LinkedIn"],
+    "youtube": {
+      "enabled": true,
+      "mode": "faceless_0comp_daily",
+      "channel_name": "AOV",
+      "handle": "@vector-ope",
+      "channel_id": "UCzkwbcy4d8HlHzImkreOQQQ",
+      "channel_url": "https://www.youtube.com/@vector-ope",
+      "composio_account": "youtube_aid-starve",
+      "composio_status": "ACTIVE",
+      "daily_format": "9:16 faceless AI Short",
+      "search_format": "16:9 faceless explainer when keyword scores 85+",
+      "playbook": "strategy/youtube-faceless-growth.md"
+    }
   },
   "production_defaults": {
     "aspect_ratio": "1:1",
@@ -70,6 +83,10 @@
     "instagram_connected_via": "composio",
     "instagram_handle": "@art_of_vector27",
     "ig_user_id": "27772957595695936",
+    "youtube_connected_via": "composio",
+    "youtube_handle": "@vector-ope",
+    "youtube_channel_id": "UCzkwbcy4d8HlHzImkreOQQQ",
+    "youtube_draft_file": "automation/cursor-automation-youtube.yaml",
     "setup_guide": "automation/CURSOR-AUTOMATION-SETUP.ko.md",
     "draft_file": "automation/cursor-automation-draft.yaml",
     "windows_task": "DISABLE — use Unregister-ScheduledTask SNS-AI-Instagram-Publish",

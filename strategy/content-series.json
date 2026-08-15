@@ -37,6 +37,17 @@
       "return_reason": "Teaches trend judgment, builds authority"
     },
     {
+      "name": "0-Comp Daily",
+      "platform": "youtube",
+      "channel": "@vector-ope",
+      "visual_identity": "Dark editorial motion graphics, giant 0, violet/cyan, no face",
+      "hook_format": "Stop hunting 0-competition lists — here's the weak-supply keyword I scored today",
+      "episode_structure": "Hook → Filter score → Faceless AI generate → Composio upload → Subscribe",
+      "cta": "Subscribe — I post this loop every morning",
+      "frequency": "Daily",
+      "return_reason": "Creators need a new weak-supply keyword every day, not another niche list"
+    },
+    {
       "name": "From 0 to 10M — Day X",
       "visual_identity": "Follower count overlay, minimal progress tracker",
       "hook_format": "Day [X] — [followers] followers. Here's what we posted today.",

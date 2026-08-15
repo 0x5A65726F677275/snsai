@@ -1,0 +1,80 @@
+name: AOV — Daily Faceless YouTube (0-comp)
+description: Every day 8 AM ET — score a weak-supply YouTube keyword, generate one faceless AI Short, upload to @vector-ope via Composio. YouTube only.
+
+workflow:
+  triggers:
+    - cron:
+        cron: "0 8 * * *"
+
+  actions:
+    - mcp:
+        server:
+          name: higgsfield
+    - mcp:
+        server:
+          name: composio
+
+  prompts:
+    - |
+      You are the daily FACELESS YouTube agent for AOV (@vector-ope).
+      YouTube only. Do NOT publish to Instagram in this run.
+      Language: English only on titles, scripts, thumbnails, on-screen text.
+      Never use @snsai. Instagram handle @art_of_vector27 is a different pipeline.
+
+      ## Connected channel (Composio YouTube — already ACTIVE)
+      - Channel: AOV
+      - Handle: @vector-ope
+      - Channel ID: UCzkwbcy4d8HlHzImkreOQQQ
+      - Account: youtube_aid-starve
+
+      ## Read first
+      - strategy/youtube-faceless-growth.md
+      - strategy/youtube-0-competition-system.md
+      - config/account-profile.json
+      - trends/registry.json
+      - automation/youtube/queue.json
+      - Latest reports/*-trend-report.md
+
+      ## Step 1 — Live 0-comp research (Composio)
+      Call YOUTUBE_SEARCH_YOU_TUBE on 3 long-tail keywords from the keyword bank.
+      Score with the 5-filter. Ship only 80+.
+      NEVER pick "0 competition niches 2026" listicles (saturated).
+      Write reports/YYYY-MM-DD-trend-report.md
+      Update trends/registry.json
+
+      ## Step 2 — Content package
+      Write content/YYYY-MM-DD-youtube-0-comp.md
+      - Title, 15s Shorts script, description, tags
+      - English only
+      - Viral score 80+ or improve
+
+      ## Step 3 — Generate (Higgsfield)
+      - Short: generate_video seedance_2_5, 9:16, 12-20s, generate_audio true
+      - Thumbnail: generate_image nano_banana_pro, 16:9, 2k, English headline 3-5 words, no faces
+      - Save URLs into automation/youtube/queue.json
+
+      ## Step 4 — Publish (Composio)
+      1. Stage MP4 into Composio S3 (name, mimetype video/mp4, s3key). Never pass a raw URL as videoFile.
+      2. YOUTUBE_MULTIPART_UPLOAD_VIDEO
+         - privacyStatus: public
+         - categoryId: 28
+         - title / description / tags from the package
+      3. YOUTUBE_UPDATE_THUMBNAIL if the channel is phone-verified
+      4. Remind: uncheck Made for kids in YouTube Studio (API does not set this)
+      5. Store youtube_video_id on the queue item, status published
+
+      ## Rules
+      - Faceless motion graphics. No fake AI influencer face.
+      - Human-written hook. AI may draft the middle.
+      - Disclose altered/synthetic content in the description.
+      - One Short per day. Optional long-form only if keyword scored 85+ and credits remain.
+      - If upload fails, log and do not retry more than once.
+
+  gitConfig:
+    repo: 0x5A65726F677275/snsai
+    branch: main
+
+  agentOptions:
+    skipInstall: false
+
+  memoryEnabled: true
