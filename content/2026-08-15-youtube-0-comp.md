@@ -5,7 +5,7 @@
 **Format:** Faceless AI Short (9:16, 15s) + search title pack  
 **Decision:** Option B — Trend + Evergreen  
 **0-comp score:** **91/100**  
-**Publish:** Composio `YOUTUBE_MULTIPART_UPLOAD_VIDEO`
+**Publish:** LIVE — [youtube.com/watch?v=2Eoz5oa9RNw](https://www.youtube.com/watch?v=2Eoz5oa9RNw) · [Shorts](https://www.youtube.com/shorts/2Eoz5oa9RNw)
 
 ---
 

@@ -8,7 +8,7 @@
 
 1. Channel name: `AOV — Art of Vector` (keep handle `@vector-ope`)
 2. Replace the leftover "hacker information" description with the bio in `strategy/youtube-faceless-growth.md`
-3. Phone-verify the channel (required for custom thumbnails)
+3. Phone-verify the channel at https://www.youtube.com/verify (custom thumbnails 403 until this is done — today's Short used the auto frame)
 4. On **both existing videos**, set **Not made for kids** — they are currently marked kids
 5. Create playlist: `0-Comp Daily`
 

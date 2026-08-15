@@ -11,6 +11,7 @@
 | Content rules (English) | ✅ Active |
 | Test pipeline (manual run) | ✅ Instagram published 2026-08-14 — [post](https://www.instagram.com/p/DcCgRczIDge/) |
 | YouTube daily draft | ⏳ `automation/cursor-automation-youtube.yaml` — save in Agents Window |
+| First 0-comp Short | ✅ Public — [2Eoz5oa9RNw](https://www.youtube.com/watch?v=2Eoz5oa9RNw) (2026-08-15) |
 | Cursor Automation (Instagram) | ⏳ Draft ready — finish in Agents Window |
 
 ## Latest publish (test run)
