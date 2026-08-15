@@ -41,6 +41,19 @@
       "notes": "YouTube SERP empty for 'why AI faces flop on Instagram 2026'. Published trend Short 2026-08-15: https://www.youtube.com/watch?v=lxiCQ6h1g7U"
     },
     {
+      "id": "c2pa-dec2-ai-label",
+      "name": "C2PA / Dec 2 2026 YouTube AI auto-label (future 0-comp)",
+      "platform_origin": "YouTube / EU AI Act Article 50",
+      "first_detected": "2026-08-15",
+      "peak_estimate": "2026-12-02",
+      "freshness": "RISING",
+      "status": "active",
+      "trend_score": 94,
+      "niche_relevance": 96,
+      "account_performance": "youtube_short_W68ovC5ij8o",
+      "notes": "Empty creator how-to SERP. Visible labels live Aug 2; machine-readable C2PA-style marking runway to Dec 2. Published future 0-comp Short: https://www.youtube.com/watch?v=W68ovC5ij8o"
+    },
+    {
       "id": "netflix-documentary-confessional",
       "name": "Netflix Documentary confessional format",
       "platform_origin": "TikTok",

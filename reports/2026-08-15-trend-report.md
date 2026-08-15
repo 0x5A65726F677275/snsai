@@ -94,15 +94,17 @@ Angle = Composio-connected daily upload (YouTube only).
 
 ## Daily priority
 
-### #1 POST TODAY
-Faceless Short: *I Connected Composio to YouTube and Post a Faceless AI Short Every Day*  
-Package: `content/2026-08-15-youtube-0-comp.md`
+### #1 POST TODAY (SHIPPED — future 0-comp)
+Faceless Short: *Dec 2 Will Auto-Label Your AI Videos — Do This Now*  
+Keyword: `C2PA YouTube AI label December 2026 creators` (0-comp 92 / future 94)  
+Live: https://www.youtube.com/watch?v=W68ovC5ij8o · https://www.youtube.com/shorts/W68ovC5ij8o  
+Package: `content/2026-08-15-future-0comp.md`
 
-### #2 BACKUP
-How to score a YouTube keyword with the API in 60 seconds (same series)
+### #2 BACKUP (SHIPPED earlier today)
+*Why AI Faces Flop on Instagram (Put AI Behind the Camera)* — https://www.youtube.com/watch?v=lxiCQ6h1g7U
 
-### #3 EXPERIMENT
-8–12 min search explainer on the same keyword when credits allow (`faceless-channel-video`)
+### #3 EXPERIMENT (SHIPPED earlier today)
+Composio daily upload proof — https://www.youtube.com/watch?v=2Eoz5oa9RNw
 
 ---
 
@@ -118,7 +120,7 @@ How to score a YouTube keyword with the API in 60 seconds (same series)
 
 | Type | Target | Today |
 |------|--------|-------|
-| Trends | 30% | Anti-slop + MCP |
-| Evergreen | 40% | Weak-supply filter |
-| Series | 20% | 0-Comp Daily ep 1 |
+| Trends | 30% | Invisible AI faces + C2PA Dec 2 |
+| Evergreen | 40% | Weak-supply future keyword |
+| Series | 20% | 0-Comp Daily (3 Shorts) |
 | Experimental | 10% | Composio publish proof |

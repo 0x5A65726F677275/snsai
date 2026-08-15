@@ -50,6 +50,27 @@
       "youtube_shorts_url": "https://www.youtube.com/shorts/lxiCQ6h1g7U",
       "published_at": "2026-08-15T04:22:16Z",
       "created_at": "2026-08-15T04:19:00+00:00"
+    },
+    {
+      "id": "2026-08-15-c2pa-dec2-future",
+      "status": "published",
+      "platform": "youtube",
+      "format": "short",
+      "privacy": "public",
+      "category_id": "28",
+      "made_for_kids": false,
+      "title": "Dec 2 Will Auto-Label Your AI Videos — Do This Now",
+      "keyword": "C2PA YouTube AI label December 2026 creators",
+      "zero_comp_score": 92,
+      "future_score": 94,
+      "description_file": "content/2026-08-15-future-0comp.md",
+      "video_job_id": "00053f6c-90a1-44d4-ba58-4692babe8d92",
+      "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Hp069K5oqOjSuU77Lxx5AcmTpf/hf_20260815_042320_00053f6c-90a1-44d4-ba58-4692babe8d92.mp4",
+      "youtube_video_id": "W68ovC5ij8o",
+      "youtube_url": "https://www.youtube.com/watch?v=W68ovC5ij8o",
+      "youtube_shorts_url": "https://www.youtube.com/shorts/W68ovC5ij8o",
+      "published_at": "2026-08-15T04:26:53Z",
+      "created_at": "2026-08-15T04:23:00+00:00"
     }
   ]
 }
